@@ -17,7 +17,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'media_search')
 API_ID = int(environ.get('API_ID', '26395590'))
 API_HASH = environ.get('API_HASH', '68ab1c74d05cfc38965949d30abe11b0')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
@@ -50,8 +50,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaiveer0005:x01PkENjVByfsXO8@bot.w3nspz8.mongodb.net/?retryWrites=true&w=majority&appName=bot")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaitt4545:F20gy7WqA23HWMEx@bot.qmvomrh.mongodb.net/?retryWrites=true&w=majority&appName=BOT")
+DATABASE_NAME = environ.get('DATABASE_NAME', "BOT")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
 
 # Premium And Referal Settings
